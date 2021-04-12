@@ -68,7 +68,7 @@ class PathfindGraphic
         else
         {
           float h = (map(cell.interestingValue, 0, 100, 0.7, 0)+1)%1;
-          float b = sq(map(cell.arrivalCost, 1, 0, 0.0, 0.7));
+          float b = (map(cell.arrivalCost, 1, 0, 0.0, 0.7));
           float s = cell.interestingValue < 0 ? 0 : 0.5;
           pg.fill(h, s, b);    
           
