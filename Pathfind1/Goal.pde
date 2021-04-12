@@ -5,6 +5,6 @@ class Goal
   
   public Goal(CellGrid world)
   {
-    position = world.cellAtPixels(700, 300);
+    position = world.cellAtPixels(width - 50, height / 2);
   }
 }
