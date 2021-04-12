@@ -28,7 +28,7 @@ class Agent
   {
     this.world = world;
     this.goal = goal; 
-    position = world.cellAtPixels(100, 300); 
+    position = world.cellAtPixels(50, 50); 
     
     frontier = new PriorityQueue<AgentStep>(5, new Comparator<AgentStep>()
     {
