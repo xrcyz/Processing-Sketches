@@ -34,7 +34,7 @@ class Cell
 class CellGrid
 {
   Cell[] cells;
-  int cellSize = 10;
+  int cellSize = 5;
   int countCellsX;
   int countCellsY;
   
