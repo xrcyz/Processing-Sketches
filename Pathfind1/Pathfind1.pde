@@ -7,7 +7,7 @@ PathfindGraphic pf;
 
 void setup()
 {
-  size(800, 600); 
+  size(200, 200); 
   colorMode(HSB, 1, 1, 1, 1); 
   
   world = new CellGrid(width, height);
