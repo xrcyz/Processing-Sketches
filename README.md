@@ -7,7 +7,7 @@ Following this [RedBlobGames](https://www.redblobgames.com/pathfinding/a-star/in
 
 ![pathfind](/Pathfind1/pathfind.gif)
 
-## Flappy Stocks
+## [Flappy Stocks](/Flappy_Stocks1)
 
 Processing clone of this [Bloomberg trading game](https://www.bloomberg.com/features/2015-stock-chart-trading-game/).
 
